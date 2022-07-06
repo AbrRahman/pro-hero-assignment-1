@@ -7,6 +7,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 /* donate top banner */
+
 .home-top-banner{
    background: linear-gradient(rgba(18, 18, 18, 0.4), rgba(18, 18, 18, 0.9)), url('../images/donation.jpg');
    background-repeat: no-repeat;
@@ -46,6 +47,7 @@ body{
 }
 
 /*  donate today section*/
+
 .donate-today-section{
     padding: 80px 30px;
 }
@@ -62,6 +64,7 @@ body{
     color: #707070;
     font-size: 18px;
     margin-top: 20px;
+    font-family: 'Lato', sans-serif;
 }
 .donate-amounts{
   display: flex;
@@ -84,10 +87,10 @@ body{
     background-color: #FFEEEE ;
     border: 2px solid #FF5959;
 }
-/* 707070 */
 .donate-amount-item h2{
     color: #707070;
     font-size: 30px;
+    font-family: 'Lato', sans-serif;
 }
 .donate-amount-orange h2{
     color: #FF5959;
@@ -104,4 +107,188 @@ body{
     padding: 8px 0;
     border: none;
     border-bottom: 1px solid #B3B3B3;
+    font-family: 'Lato', sans-serif;
+}
+
+/* donate-plan-section */
+
+.donate-plan-title{
+    color: #000;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+.donate-plan-description{
+    text-align: center;
+    color: #707070;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    font-family: 'Lato', sans-serif;
+}
+.donate-plan-box-items{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.donate-plan-box{
+   padding: 25px;
+   margin-left: 20px;
+   border-radius:4px;
+   width: 360px;
+   height: 352px;
+}
+.donate-plan-box-1{
+    background-color: rgba(79, 157, 166,10%);
+    margin-left: 0;
+}
+.donate-plan-box-2{
+    background-color: rgba(255, 89, 89,10%);
+}
+.donate-plan-box-3{
+  background-color: rgb(255, 244, 214);
+}
+.donate-plan-box img{
+   margin-top: 20px;
+}
+.donation-name{
+    margin-top:20px;
+    margin-bottom: 20px;
+    color: #121212;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+.donation-detels{
+    color: #707070;
+    font-size: 16px;
+    text-align: left;
+    width: 90%;
+}
+/*our blog section*/
+.our-blog-section{
+    margin: 80px 0;
+}
+.blog-title{
+    color: #000;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+.blog-description{
+    text-align: center;
+    color: #707070;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    font-family: 'Lato', sans-serif;
+}
+.blog-items{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.blog-sigmal-item{
+    width: 360px;
+    padding-left:20px ;
+}
+.blog-image{
+    width: 340px;
+    height: 212px;
+    border-radius: 4px;
+}
+.blog-image-content h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #121212;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+.blog-image-content p{
+    color: #707070;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+/* get-my-updates section */
+.get-my-updates{
+    margin: 80px 0;
+}
+.my-update-title{
+    color: #000;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+.my-update-description{
+    text-align: center;
+    color: #707070;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.update-info-box{
+    width: 800px;
+    height: 200px;
+    background-color:rgb(255, 244, 214) ;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 12;
+}
+.take-update-info{
+    width: 430px;
+    margin: 0 auto;
+}
+
+.update-input-box{
+    width: 70%;
+    background: #D9D9D9;
+    text-align: left;
+    margin-right: -3px;
+    border: none;
+    outline: none;
+    padding: 12px 8px 12px 12px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.Subscribe-btn{
+    width: 30%;
+    text-decoration: none;
+    text-align: center;
+    background-color: #FF5959;
+    padding: 8px 28px 12px 28px;
+    color: #fff;
+    border-radius: 0px 5px 5px 0px;
+}
+/* Footer */
+.site-footer{
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 30px;
+    padding: 14px 10px;
+}
+.site-footer h3{
+    color: #FF5959;
+    font-size: 36px;
+    font-family: 'Dancing Script', cursive;
+}
+.site-footer p{
+    color:#D9DBE1;
+    font-size: 14px;
+    margin-top: 10px;
 }
